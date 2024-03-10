@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    min-height: 40vh;
+    flex-direction: column;
+}
+.border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    border: 2px solid yellow;
+    border-radius: 5px;
+    padding: 10px 20px 20px 20px;
+    width: 500px;
+}
+
+#card {
+    border: 1px solid black;
+}
